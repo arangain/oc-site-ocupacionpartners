@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>NC Partner Network | Ocupacion LLC</title>
+<meta name="description" content="Ocupacion LLC is the prime on North Carolina government contracts. NC-based partners handle specific scopes.">
+<link rel="icon" href="logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--black:#0a0a0a;--navy:#0d1b2a;--navy-mid:#111f30;--gold:#c9a84c;--gold-lt:#e8c97a;--gold-dim:rgba(201,168,76,.1);--white:#f5f3ee;--off:rgba(245,243,238,.65);--muted:rgba(245,243,238,.38);--border:rgba(201,168,76,.18)}
+html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--white);font-family:'Barlow',sans-serif;line-height:1.6;-webkit-text-size-adjust:100%}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.label{display:inline-flex;align-items:center;gap:12px;font-size:10px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+.label::before{content:'';display:block;width:28px;height:1px;background:var(--gold)}
+h1,h2,h3{font-family:'Bebas Neue',sans-serif;font-weight:400;line-height:1;letter-spacing:.01em;text-transform:uppercase}
+h1{font-size:clamp(46px,12vw,104px)}
+h2{font-size:clamp(34px,7.5vw,60px)}
+h3{font-size:26px}
+.gold{color:var(--gold)}
+.btn{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--black);background:var(--gold);padding:17px 34px;text-decoration:none;display:inline-block;min-height:48px;transition:background .2s,transform .15s;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px))}
+.btn:hover{background:var(--gold-lt);transform:translateY(-2px)}
+header{background:#fff;border-bottom:3px solid var(--gold);padding:12px 0}
+header .wrap{display:flex;align-items:center;gap:14px}
+header img{height:44px;width:auto;display:block}
+header span{font-family:'Barlow Condensed',sans-serif;font-weight:700;letter-spacing:.22em;text-transform:uppercase;font-size:13px;color:var(--navy)}
+.hero{position:relative;overflow:hidden;background:var(--navy);padding:64px 0 56px}
+.hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(201,168,76,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,.04) 1px,transparent 1px);background-size:60px 60px;pointer-events:none}
+.hero::after{content:'';position:absolute;top:0;right:0;width:5px;height:100%;background:linear-gradient(180deg,var(--gold),transparent)}
+.hero .wrap{position:relative;z-index:1}
+.hero p.lead{font-size:18px;color:var(--off);max-width:640px;margin:26px 0 34px;font-weight:300}
+section{padding:64px 0}
+.alt{background:var(--navy)}
+.intro{max-width:680px;color:var(--off);margin-top:16px;font-weight:300}
+.grid{display:grid;gap:14px;margin-top:36px}
+.card{background:var(--navy-mid);border:1px solid var(--border);padding:24px 22px;position:relative}
+.alt .card{background:var(--black)}
+.card .n{position:absolute;top:10px;right:16px;font-family:'Bebas Neue',sans-serif;font-size:56px;color:rgba(245,243,238,.06);line-height:1}
+.card h3{color:var(--white);margin-bottom:8px}
+.card p{font-size:15px;color:var(--off);font-weight:300}
+.creds{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:32px}
+.cred{border:1px solid var(--border);padding:16px 14px;font-size:13px;color:var(--off)}
+.cred b{display:block;font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:24px;color:var(--white);letter-spacing:.02em}
+.cta{text-align:center;background:var(--navy);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.cta h2{max-width:760px;margin:0 auto 26px}
+footer{padding:30px 0 40px;font-size:12px;color:var(--muted);text-align:center;letter-spacing:.04em}
+.split{display:grid;gap:36px;align-items:center}
+.panel{border:2px solid var(--gold);background:var(--black);padding:28px 24px}
+.panel .label{margin-bottom:10px}
+.panel .row{padding:18px 0;border-top:1px solid var(--border)}
+.panel .row:first-of-type{border-top:0}
+.panel .row b{display:block;font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:clamp(36px,9vw,54px);line-height:1;text-transform:uppercase;color:var(--gold)}
+.panel .row small{display:block;margin-top:4px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--off)}
+.scope .card{padding:32px 26px}
+.scope .tag{font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:8px}
+.loop{list-style:none;margin-top:36px;display:grid;gap:0;max-width:760px}
+.loop li{display:flex;gap:16px;padding:18px 0;border-top:1px solid var(--border);color:var(--off);font-weight:300}
+.loop li:last-child{border-bottom:1px solid var(--border)}
+.loop li::before{content:'\2192';color:var(--gold);flex:none}
+@media(min-width:720px){
+ .wrap{padding:0 40px}
+ .hero{padding:110px 0 90px}
+ section{padding:96px 0}
+ .grid.c3{grid-template-columns:repeat(3,1fr)}
+ .grid.c2{grid-template-columns:repeat(2,1fr)}
+ .grid.c4{grid-template-columns:repeat(4,1fr)}
+ .creds{grid-template-columns:repeat(4,1fr)}
+ header img{height:52px}
+ .split{grid-template-columns:1.25fr 1fr;gap:64px}
+ .panel{padding:40px 36px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <img src="logo.webp" alt="Ocupacion LLC logo" width="52" height="52">
+    <span>Ocupacion LLC</span>
+  </div>
+</header>
+
+<main>
+<div class="hero">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <div class="label">NC-Based Partners</div>
+        <h1>Partners For<br><span class="gold">North Carolina</span><br>Government<br>Contracts.</h1>
+        <p class="lead">Ocupacion stays the prime. Partners handle specific scopes. We pursue the contract, activate our partner network, and manage delivery start to finish.</p>
+        <a class="btn" href="https://ocupacionllc.com/">See The Partner Model</a>
+      </div>
+      <div class="panel">
+        <div class="label">Partner Coverage</div>
+        <div class="row"><b>Statewide</b><small>NC-based partners</small></div>
+        <div class="row"><b>50-Mile Radius</b><small>NC-based partners</small></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="scope">
+  <div class="wrap">
+    <div class="label">Partner Scopes</div>
+    <h2>Two Scopes.<br><span class="gold">One Accountable Prime.</span></h2>
+    <div class="grid c2">
+      <div class="card"><div class="tag">Scope One</div><h3>Janitorial &amp; Facility Maintenance</h3><p>Janitorial and facility maintenance work on NC-focused contracts with statewide sub coverage.</p></div>
+      <div class="card"><div class="tag">Scope Two</div><h3>Grounds &amp; Landscaping</h3><p>Grounds and landscaping, adjacent to janitorial.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="label">The Model</div>
+    <h2>Each Leg<br><span class="gold">Feeds The Others.</span></h2>
+    <ul class="loop">
+      <li>Better-operated businesses become stronger subcontractors.</li>
+      <li>Stronger subcontractors help Ocupacion win more government contracts.</li>
+      <li>Government contracts create more demand for well-run subs.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Want To See<br><span class="gold">The Model?</span></h2>
+    <a class="btn" href="https://ocupacionllc.com/">See The Partner Model</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">Ocupacion LLC &middot; Kannapolis, NC &middot; Serving Nationwide &middot; (980) 680-7514</div>
+</footer>
+
+</body>
+</html>
